@@ -1,0 +1,99 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body{
+margin:10px;
+padding: 0px;
+font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    padding: 0px;
+
+    
+}
+
+header img{
+    width: 90%;
+    height: 800px;
+}
+
+
+
+header h1{
+    color: white;
+    font-size: 120px;
+    position: absolute;
+}
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-bottom: 1px solid grey;
+
+    font-size:24px;
+}
+
+#introduction img{
+    width:50%;
+    margin-bottom: 15px;
+
+}
+
+
+
+#ingredients{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-bottom: 1px solid grey;
+
+    font-size:24px;
+}
+
+#ingredients img{
+    width:50%;
+    position: relative;
+    left: 360px;
+    margin-top: 25px;
+
+}
+
+#ingredients ul {
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+
+#directions{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    font-size:24px;
+
+}
+
+#directions ol li {
+    margin: 5px;
+}
